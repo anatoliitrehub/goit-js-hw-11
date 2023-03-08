@@ -34,7 +34,7 @@ function inpEvent(event){
         else{
             countryInfo.innerHTML = '';
             countryList.innerHTML = data.map(elem => {return(
-                `<li class="list__item"><img src=${elem.flags.svg} alt="${elem.flags.alt}" class="list__image"><p class="list__text">${elem.name.official}</p></li>`
+                `<li class="list__item"><img src=${elem.flags.svg} alt="${elem.flags.alt}" class="list__image"><p class="list__text">${elem.name.common}</p></li>`
             )}).join('');
 
         }})

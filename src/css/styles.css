@@ -18,3 +18,42 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.list__item, .info__item{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.list__image{
+  width: 20px;
+  height: 20px; 
+  border:1px solid #00aa00;
+  margin-right: 10px;
+}
+
+.list__text{
+  font-weight: 600;
+}
+
+.info__image{
+  width: 40px;
+  height: 40px; 
+  border:1px solid #00aa00;
+  margin-right: 10px;
+}
+
+.info__title{
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.info__text{
+font-weight: 800;
+}
+
+
+
+.info__text--span{
+  font-weight: 400;
+}

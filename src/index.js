@@ -38,7 +38,10 @@ function inpEvent(event){
             )}).join('');
 
         }})
-        .catch(() => Notiflix.Notify.failure('Oops, there is no country with that name'));
+        .catch(() => {
+            countryInfo.innerHTML = '';
+            countryList.innerHTML = '';
+            Notiflix.Notify.failure('Oops, there is no country with that name')});
 };
 
 function allLang(arr){
